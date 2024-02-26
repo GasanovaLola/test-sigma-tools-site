@@ -1,0 +1,56 @@
+.btn-1 {
+    background-color: rgb(254, 204, 0);
+    border-radius: 5px;
+    padding: 7px 14px;
+    color: #595952;
+    font-size: 14px;
+    box-shadow: 0.5px 1.5px 0px 0px rgba(206, 176, 53, 1);
+    border: none;
+}
+.btn-sersher {
+    background-color: rgb(254, 204, 0);
+    border-radius: 5px;
+    padding: 0 14px;
+    height: 52.4px;
+    color: #595952;
+    font-size: 14px;
+    border: none;
+    width: 100%;
+}
+.btn-1:hover {
+    background-color: rgb(25, 210, 201);
+    border-radius: 5px;
+    padding: 7px 14px;
+    font-size: 14px;
+    color: #595952;
+    box-shadow: 0.5px 1.5px 0px 0px rgb(152, 219, 250);
+    border: none;
+}
+.btn-2 {
+    background-color: rgb(25, 210, 201);
+    border-radius: 5px;
+    padding: 7px 14px;
+    font-size: 14px;
+    color: #595952;
+    box-shadow: 0.5px 1.5px 0px 0px rgb(152, 219, 250);
+    border: none;
+}
+.btn-2:hover {
+    background-color: rgb(254, 204, 0);
+    border-radius: 5px;
+    padding: 7px 14px;
+    color: #595952;
+    font-size: 14px;
+    box-shadow: 0.5px 1.5px 0px 0px rgba(206, 176, 53, 1);
+    border: none;
+}
+
+.bg-gr {
+    background-color: rgb(240, 240, 240);
+}
+
+.fa-angle-down {
+    font-size: 16px;
+    margin-left: 5px;
+    color: #595952;
+}

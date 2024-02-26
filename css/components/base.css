@@ -1,0 +1,94 @@
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: â€˜MS Sans Serifâ€™, Geneva, sans-serif;
+}
+.wrapper {
+    /*position: relative;*/
+    overflow: hidden;
+}
+img {
+    width: 100%;
+}
+.container {
+    max-width: 1270px;
+    padding: 0 16px;
+    margin: 0 auto !important;
+}
+.flex {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.flex-top {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: top;
+}
+
+.logo {
+    width: 165px;
+}
+li {
+    list-style-type: none;
+}
+.sub-title {
+    margin-bottom: 5px;
+}
+
+.title-hero {
+    margin: 10px 0;
+    color: #3e4040f0;
+    font-size: 25px;
+    line-height: 40px;
+}
+.title-hero-2 {
+    margin: 10px 0;
+    color: #3e4040f0;
+    font-size: 22px;
+    line-height: 40px;
+}
+.text-hero {
+    font-size: 18px;
+    line-height: 25px;
+    color: #717272;
+}
+.link {
+    font-size: 14px;
+    color: rgba(12, 156, 204, 0.5);
+    margin: 0 15px;
+}
+.link-1 {
+    font-size: 17px;
+    color: rgb(66, 66, 65);
+    margin: 0 15px;
+}
+.fa-phone-volume , .fa-envelope {
+    margin-right: 25px;
+    font-size: 25px;
+    color: rgb(254, 204, 0);
+}
+.fa-instagram, .fa-facebook, .fa-telegram, .fa-cc-visa, .fa-cc-mastercard {
+    font-size: 30px;
+    margin: 0 3px;
+    color: #333;
+}
+@media (min-width: 1040px) and (max-width: 5000px) {
+    .margin {
+        margin: 80px 0;
+    }
+}
+@media (min-width: 693px) and (max-width: 1040px) {
+    .margin {
+        margin: 40px 0;
+    }
+}
+@media (min-width: 320px) and (max-width: 693px) {
+    .margin {
+        margin: 0;
+    }
+}

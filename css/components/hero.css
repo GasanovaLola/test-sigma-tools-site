@@ -1,0 +1,160 @@
+.hero {
+    margin: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.stat {
+    padding: 35px 0;
+    margin-top: 35px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+.stat svg:not(:root).svg-inline--fa {
+    color: rgb(25, 210, 201);
+    font-size: 60px;
+    text-align: center;
+    margin-right: 10px;
+}
+.list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    align-items: center;
+    text-transform: uppercase;
+    line-height: 25px;
+    width: 315px;
+}
+.img-logo-sotr {
+    width: 160px;
+    margin: 15px 0;
+}
+.block-main {
+    padding: 25px;
+    width: 170px;
+}
+.block-main img {
+    padding: 15px;
+    height: 163px;
+    width: auto;
+}
+.responsive .slick-next:before {
+    display: none;
+}
+.responsive .slick-prev:before {
+    display: none;
+}
+
+.subscribing {
+    margin: 125px auto;
+    text-align: center;
+}
+.container-searcher {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+@media (min-width: 920px) and (max-width: 2000px) { 
+    .tel-mob {
+        display: none;
+    }
+    .tel {
+        display: block;
+    }
+}
+@media (min-width: 320px) and (max-width: 919px) { 
+    .tel-mob {
+        display: block;
+    }
+    .tel {
+        display: none;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 1200px) {
+    .list {
+        justify-content: normal;
+        margin-bottom: 10px;
+    }
+    .stat {
+        flex-wrap: wrap;
+    }
+}
+@media (min-width: 1272px) and (max-width: 2000px) {
+    .bg-1 {
+        background-image: url(../../img/bg-1.png);
+        background-size: cover;
+        padding: 60px 140px;
+    }
+    .bg-2 {
+        background-image: url(../../img/bg-2.png);
+        background-size: cover;
+        padding: 60px;
+    }
+    .bg-1 h2 {
+        font-size: 30px;
+        color: rgb(66, 66, 65);
+        text-shadow: rgb(250, 235, 152) 0px 1px;
+        width: 500px;
+    }
+    
+    .bg-2 h2 {
+        font-size: 30px;
+        color: rgb(66, 66, 65);
+        text-shadow: rgb(152, 219, 250) 0px 1px;
+        width: 500px;
+    }
+}
+@media (min-width: 675px) and (max-width: 1272px) {
+    .bg-1 {
+        background-image: url(../../img/bg-1.png);
+        background-size: cover;
+        padding: 45px 45px;
+    }
+    .bg-2 {
+        background-image: url(../../img/bg-2.png);
+        background-size: cover;
+        padding: 45px;
+    }
+    .bg-1 h2 {
+        font-size: 25px;
+        color: rgb(66, 66, 65);
+        text-shadow: rgb(250, 235, 152) 0px 1px;
+        width: 470px;
+    }
+    
+    .bg-2 h2 {
+        font-size: 25px;
+        color: rgb(66, 66, 65);
+        text-shadow: rgb(152, 219, 250) 0px 1px;
+        width: 470px;
+    }
+}
+@media (min-width: 320px) and (max-width: 675px) {
+    .bg-1 {
+        background-image: url(../../img/bg-1.png);
+        background-size: cover;
+        padding: 45px 45px;
+    }
+    .bg-2 {
+        background-image: url(../../img/bg-2.png);
+        background-size: cover;
+        padding: 45px;
+    }
+    .bg-1 h2 {
+        font-size: 20px;
+        color: rgb(66, 66, 65);
+        text-shadow: rgb(250, 235, 152) 0px 1px;
+        width: 360px;
+    }
+    
+    .bg-2 h2 {
+        font-size: 20px;
+        color: rgb(66, 66, 65);
+        text-shadow: rgb(152, 219, 250) 0px 1px;
+        width: 360px;
+    }
+}
